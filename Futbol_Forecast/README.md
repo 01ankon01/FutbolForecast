@@ -12,22 +12,28 @@ This project focuses on [insert brief project goal]. It uses various machine lea
 
 ## Modules Used
 This project incorporates the following key modules:
-- [Module 1]: Description of usage
-- [Module 2]: Description of usage
-- [Module 3]: Description of usage
+- [1]: Use ultralytics and YOLOv8 to detect objects in images and videos.
+- [2]: Fine tune and train your own YOLO on your own custom dataset.
+- [3]: Use KMeans to cluster pixles and segment players from the background to get the t-shirt color accurately.
+- [4]: Use optical flow to measure the camera movement.
+- [5]: Use CV2's (opencv) perspective transformation to represent the scene's depth and perspective.
+- [6]: Measure player's speed and distance covered in the image. 
 
 ## Pre-Trained Models
-- [Insert trained model link]
+- [Insert trained model link](https://drive.google.com/file/d/1DC2kCygbBWUKheQ_9cFziCsYVSRw6axK/view)
 
 ## Sample Data
-- [Insert sample data or video link]
+- [Insert sample data or video link](https://drive.google.com/file/d/1t6agoqggZKx6thamUuPAIdN_1zR9v9S_/view)
 
 ## Installation Requirements
 To run the project, ensure you have the following dependencies installed:
 - Python 3.x
-- [Dependency 1]
-- [Dependency 2]
-- [Dependency 3]
+- ultralytics
+- supervision
+- OpenCV
+- NumPy
+- Matplotlib
+- Pandas
 
 ## Instructions
 1. Clone this repository.
